@@ -80,6 +80,7 @@ header h1 {
 .formulario .campo {
     display: grid;
     margin-bottom: 2rem;
+    
 }
 
 .formulario label {
@@ -185,6 +186,9 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.8rem;
     text-align: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
 }
 
 .contenedor-presupuesto svg {
@@ -239,6 +243,7 @@ main {
     display: flex;
     align-items: center;
     gap: 2rem;
+    
 }
 .filtros label {
     font-size: 3rem;
